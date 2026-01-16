@@ -14,7 +14,7 @@ const (
 )
 
 func main() {
-	fmt.Print("Введіть свій нікнейм: ")
+	fmt.Print("Введіть свій нікнейм: ") //commit
 	userReader := bufio.NewReader(os.Stdin)
 	nickname, _ := userReader.ReadString('\n')
 
