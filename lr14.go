@@ -32,7 +32,7 @@ func manager() {
 				default:
 					leaving <- clientChan
 					delete(clients, clientChan)
-					fmt.Println("Клієнт від'єднаний через переповнення буфера.")
+					fmt.Println("Клієнт від'єднаний через переповнення буфера.") //коментарій
 				}
 			}
 
